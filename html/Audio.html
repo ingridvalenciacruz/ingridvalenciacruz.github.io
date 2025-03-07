@@ -1,0 +1,101 @@
+<html>
+    <head>
+       <link
+    rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+        <title>Audio en html</title>
+        <link rel="stylesheet" href="../CSS/style.css" type="text/css"/>
+        <style type="text/css">
+            secction{
+                width: 25%;
+                min-width: 500px;
+                height: 600px;
+                display: inline-block;
+                overflow-y: auto;
+                margin-left: 20px;
+                margin-left: 20px; 
+                margin-bottom: 20px;
+                margin-top: 20px;
+                
+            }
+            main{
+                text-align: center;
+                            }
+            main section p {text-align: justify}
+        
+         .ima_ico{
+         width: 30px;
+    height: auto;
+    display: table;
+        justify-content: flex-end;
+        align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    filter: drop-shadow(2px 2px 2px gray)
+}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 class="animate__animated animate__rotateIn animate__slow">AUIDIO EN HTML</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="formatos_texto.html">Formatos</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="Tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="Audio.html">Audios</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Audio</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta eget sapien vel tempus. Duis malesuada est vel leo porttitor tincidunt. Morbi elit lectus, consequat venenatis risus eu, vulputate tincidunt enim. Sed non lectus ac nisl condimentum luctus. Donec venenatis dapibus cursus. Aenean et maximus tortor. Fusce ipsum risus, dapibus sit amet felis a, egestas ultrices magna.
+                    Sed placerat felis in quam gravida consectetur. Integer in tellus eu nisl faucibus suscipit. Vivamus tempor lectus turpis, quis dapibus arcu placerat nec. Mauris at ipsum finibus, scelerisque ligula ac, luctus nibh. Nunc vehicula condimentum eros sit amet accumsan. Sed aliquam nibh id.</p>
+                    <audio controls >
+                        <source src="../audios/historia-arte.mp3" type="audio/mp3">
+                        No es posible reproducir el audio
+                    </audio>
+            </section>
+            <section>
+                <h2>Auidio autoplay</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia porttitor nisi eget rutrum. Nulla vitae elementum libero. Phasellus convallis iaculis ante ultricies elementum. Ut tincidunt lobortis metus, eget mollis leo dapibus et. Vivamus purus sem, imperdiet sed feugiat id, accumsan ut enim. Aliquam tellus massa, pellentesque a dignissim sed, consectetur nec odio. Proin bibendum lectus vitae ullamcorper faucibus. Pellentesque pulvinar enim sit amet fermentum faucibus. Praesent nec fermentum lacus. Aliquam libero neque, tristique ut sem nec, lacinia feugiat mauris.</p>
+                <audio controls autoplay muted>
+                <source src="../audios/principito.mp3" type="audio/mp3">
+                No es posible reproducir el audio
+                </audio>
+            </section>
+            <section>
+                <h2>Audio con reproduccion ciclica</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut finibus turpis non purus aliquet feugiat eu in sapien. Sed luctus varius tristique. Quisque sem diam, sodales in finibus at, convallis eget quam. Nam tristique lorem non congue dictum. Curabitur at ex aliquam, ultricies odio ac, sodales dolor. Cras feugiat, ex.</p>
+                <audio controls loop>
+                    <source src="../audios/principito.mp3">
+                </audio>
+            </section>
+            <section>
+            <h2>Audio  de repositorio</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mi nisl, facilisis non erat interdum, aliquet euismod nisi. Suspendisse hendrerit consectetur sodales. Phasellus et risus quis lorem semper molestie sed id erat. Morbi vel erat sed enim finibus viverra. Sed rutrum leo at ex euismod, vel convallis quam imperdiet. Morbi eget lobortis ex, vitae ullamcorper velit. Mauris nec sodales risus. Aenean tristique arcu felis, quis dapibus tortor fermentum vitae. Fusce libero tortor, molestie in velit nec, tristique rhoncus erat.Suspendisse pulvinar ex non nibh porta sagittis. Nam blandit a justo aliquam suscipit. Nullam a erat lacus. Sed varius magna orci.</p>
+            <iframe id='audio_63551181' frameborder='0' allowfullscreen='' scrolling='no' height='200' style='border:1px solid #EEE; box-sizing:border-box; width:100%;' src='https://www.ivoox.com/player_ej_63551181_6_1.html' loading='lazy'></iframe>
+            </section>
+             <section>
+                 <h2>Audio spotyfi </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut finibus turpis non purus aliquet feugiat eu in sapien. Sed luctus varius tristique. Quisque sem diam, sodales in finibus at, convallis eget quam. Nam tristique lorem non congue dictum. Curabitur at ex aliquam, ultricies odio ac, sodales dolor. Cras feugiat, ex.</p> <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3lI5dscCDez8cF6LF3Me7F?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                
+                </section>
+                <section>
+                <h2>Audio con reproduccion ciclica</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut finibus turpis non purus aliquet feugiat eu in sapien. Sed luctus varius tristique. Quisque sem diam, sodales in finibus at, convallis eget quam. Nam tristique lorem non congue dictum. Curabitur at ex aliquam, ultricies odio ac, sodales dolor. Cras feugiat, ex.</p>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7sD83dkQO0Q484vYK2iLA1?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </section>
+                
+        </main>
+        <footer>
+            <h6>Elaborado por Ingrid Valencia Cruz <a href="file:///D:/Ingridvalencia/index.html"><img class="ima_ico" src="../imagenes/ico-casa.png" alt="inicio"/></a> </h6>
+        </footer>
+    </body>
+</html>
